@@ -108,9 +108,15 @@ h1 {
     justify-content: center;
 }
 
+.bot-container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+
+}
+
 .bottom .quote {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: "light italic";
     font-size: 36px;
     text-align: left;
     margin-top: 50px;
@@ -119,7 +125,10 @@ h1 {
 
 .writer {
     color: white;
+    font-weight: 600;
+    font-size: 26px;
     margin: 10px;
+    align-self: flex-end;
 }
 
 /* end of bottom  */
@@ -177,3 +186,7 @@ h1 {
     color: rgb(248, 241, 241);
     padding: 10px;
 }
+
+
+
+/* media queries */
